@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.nav_sections {
+  display: flex;
+  justify-content: space-between; }
+
+.section_main {
+  margin-top: 5rem;
+  width: 100%;
+  height: 30rem; }
+
+.section_main div {
+  height: 100%; }
+
+.section_main_container {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex; }
+
+.span {
+  visibility: hidden; }
+
+.rendimiento_div:hover .span {
+  visibility: visible;
+  text-decoration: underline; }
+
+.rendimiento_div:hover .rendimiento {
+  background-color: #e0d31f; }
+
+.rendimiento {
+  background-color: grey;
+  border: solid white 1px;
+  height: 100%; }
+
+.bots_div:hover .span {
+  visibility: visible;
+  text-decoration: underline; }
+
+.bots_div:hover .bots {
+  background-color: black; }
+
+.bots {
+  background-color: grey;
+  border: solid white 1px;
+  height: 100%; }
+
+.sistemas_div:hover .span {
+  visibility: visible;
+  text-decoration: underline; }
+
+.sistemas_div:hover .sistema {
+  background-color: #b13b3b; }
+
+.sistema {
+  background-color: grey;
+  border: solid white 1px;
+  height: 100%; }
+
+.body_rendimiento {
+  background-color: #e0d31f; }
+
+.rendimiento_main {
+  margin-top: 5rem; }
+  .rendimiento_main .title_rendimiento {
+    text-decoration: underline; }
+
+.contenedorImg {
+  margin-top: 10rem; }
+
+.contenedorParrafo {
+  margin-top: 5rem; }
+  .contenedorParrafo p {
+    display: block;
+    text-align: start; }
+
+.section_bot_mainIMG {
+  width: 100%;
+  height: 30rem; }
+
+.section_bot_descripcion {
+  width: 100%;
+  height: 30rem;
+  background-color: black; }
+
+.article_bot {
+  height: 100px;
+  border: solid white 2px; }

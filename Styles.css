@@ -2,14 +2,21 @@
   padding: 0;
   margin: 0; }
 
-.nav_sections {
-  display: flex;
-  justify-content: space-between; }
+.navbar_list {
+  margin-right: 1rem; }
+  .navbar_list li {
+    margin-right: 4rem; }
+
+.logo1 {
+  width: 15rem; }
+
+.logo2 {
+  width: 2.4rem; }
 
 .section_main {
   margin-top: 5rem;
   width: 100%;
-  height: 30rem; }
+  height: 20rem; }
 
 .section_main div {
   height: 100%; }
@@ -32,7 +39,10 @@
 
 .rendimiento {
   background-color: grey;
-  border: solid white 1px;
+  height: 100%; }
+
+.img_rendimiento {
+  width: 100%;
   height: 100%; }
 
 .bots_div:hover .span {
@@ -44,7 +54,10 @@
 
 .bots {
   background-color: grey;
-  border: solid white 1px;
+  height: 100%; }
+
+.img_bots {
+  width: 100%;
   height: 100%; }
 
 .sistemas_div:hover .span {
@@ -56,7 +69,10 @@
 
 .sistema {
   background-color: grey;
-  border: solid white 1px;
+  height: 100%; }
+
+.img_sistema {
+  width: 100%;
   height: 100%; }
 
 .body_rendimiento {
@@ -68,7 +84,9 @@
     text-decoration: underline; }
 
 .contenedorImg {
-  margin-top: 10rem; }
+  margin-top: 8rem; }
+  .contenedorImg img {
+    width: 20rem; }
 
 .contenedorParrafo {
   margin-top: 5rem; }
@@ -79,12 +97,56 @@
 .section_bot_mainIMG {
   width: 100%;
   height: 30rem; }
+  .section_bot_mainIMG img {
+    width: 100%;
+    height: 100%; }
 
 .section_bot_descripcion {
   width: 100%;
-  height: 30rem;
+  height: 100%;
   background-color: black; }
 
-.article_bot {
-  height: 100px;
-  border: solid white 2px; }
+.row_bots {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x)); }
+
+.article_bot p {
+  color: white; }
+
+.article_bot #p_datos {
+  width: 10.5rem; }
+
+.article_bot #datos_bot {
+  width: 10.5rem; }
+
+.article_bot #p_inteligencia {
+  justify-content: center;
+  text-align: center;
+  width: 20rem; }
+
+.article_bot #inteligencia_bot {
+  width: 21.6rem; }
+
+.article_bot #p_dashboard {
+  width: 16rem; }
+
+.article_bot #dashboard_bot {
+  width: 16.8rem; }
+
+.article_bot #p_estimulacion {
+  width: 21.7rem; }
+
+.article_bot #estimulacion_bot {
+  width: 21.7rem; }
+
+.article_bot #p_gestion {
+  width: 13.7rem; }
+
+.article_bot #gestion_bot {
+  width: 13.7rem; }
+
+.body_sistema {
+  background-color: #b13b3b; }

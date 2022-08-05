@@ -121,11 +121,6 @@ height: 100%;
     }
     
 }
-
-
-
-
-
 .contenedorImg{
     margin-top: 8rem;
     img{ 
@@ -140,8 +135,6 @@ height: 100%;
        text-align: start;
     }
 }
-
-
 //bots
 
 .section_bot_mainIMG{
@@ -207,12 +200,25 @@ height: 100%;
     #gestion_bot{
         width: 13.7rem;
     }
-  
-    
 }
 
 //sistema
 
 .body_sistema{
     background-color: rgb(177, 59, 59) ;
+}
+
+.h2_sistema{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    width: 20rem;
+    h2{
+        text-decoration: underline;
+    }
+}
+.img_sistema_{
+    margin-top: 6.5rem;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }

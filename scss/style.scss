@@ -37,15 +37,15 @@ padding-left: 1rem;
    
 }
 .section_main{
-    padding: 1.5rem;
+    position: relative;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 26vh;
     
-   
 }
 
 .section_main_container{
     display: flex;
-    margin-top: 7%;
-    bottom: 1rem;
     
 }
 
@@ -64,15 +64,19 @@ padding-left: 1rem;
     }
 }
 
+.rendimiento_div{
+    height: 55vh;
+}
 .rendimiento{
     background-color:#d1d1d1;
-    width: 100%;
-    
-    
+    height: 100%;
+ 
 }
 
 .img_rendimiento{
-    width: 96.5%;
+    object-position: center;
+    width: 96.7%;
+    height: 100%;
     
 }
 
@@ -86,17 +90,17 @@ padding-left: 1rem;
         background-color: black;
     }
 }
-
+.bots_div{
+    height: 55vh;
+}
 .bots{
     background-color:#d1d1d1;
-    width: 100%;
-
-   
+    height: 100%;
 }
 
 .img_bots{
     width: 100%;
-   
+    height:100%;
 }
 
 .sistemas_div:hover{
@@ -108,17 +112,19 @@ padding-left: 1rem;
         background-color: rgb(177, 59, 59);
     }
 }
+.sistemas_div{
+    height: 55vh;
+}
 
 .sistema{
 background-color:#d1d1d1;
-
-width: 100%;
+height: 100%;
 
 }
 
 .img_sistema{
     width: 100%;
-    
+    height: 100%;
 }
 
 //rendimiento

@@ -32,7 +32,7 @@
   position: relative;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: 26vh; }
+  margin-top: 20vh; }
 
 .section_main_container {
   display: flex; }
@@ -49,7 +49,7 @@
   background-color: #e1ca00; }
 
 .rendimiento_div {
-  height: 55vh; }
+  height: 60vh; }
 
 .rendimiento {
   background-color: #d1d1d1;
@@ -68,7 +68,7 @@
   background-color: black; }
 
 .bots_div {
-  height: 55vh; }
+  height: 60vh; }
 
 .bots {
   background-color: #d1d1d1;
@@ -86,7 +86,7 @@
   background-color: #b13b3b; }
 
 .sistemas_div {
-  height: 55vh; }
+  height: 60vh; }
 
 .sistema {
   background-color: #d1d1d1;

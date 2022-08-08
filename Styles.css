@@ -289,29 +289,36 @@
   .row_bots {
     display: flex;
     flex-direction: column; }
-  .article_bot p {
-    color: white; }
-  .article_bot #p_datos {
-    width: 10.5rem; }
-  .article_bot #datos_bot {
-    width: 50%; }
-  .article_bot #p_inteligencia {
-    justify-content: center;
-    text-align: center;
-    width: 20rem; }
-  .article_bot #inteligencia_bot {
-    width: 100%; }
-  .article_bot #p_dashboard {
-    width: 100%; }
-  .article_bot #dashboard_bot {
-    width: 75%; }
-  .article_bot #p_estimulacion {
-    width: 21.7rem; }
-  .article_bot #estimulacion_bot {
-    width: 100%; }
-  .article_bot #p_gestion {
-    width: 13.7rem; }
-  .article_bot #gestion_bot {
-    width: 60%; }
+  .article_bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .article_bot p {
+      width: 100%;
+      color: white;
+      margin: 1rem;
+      object-position: center; }
+    .article_bot #p_datos {
+      width: 100%; }
+    .article_bot #datos_bot {
+      width: 50%; }
+    .article_bot #p_inteligencia {
+      justify-content: center;
+      text-align: center;
+      width: 100%; }
+    .article_bot #inteligencia_bot {
+      width: 100%; }
+    .article_bot #p_dashboard {
+      width: 100%; }
+    .article_bot #dashboard_bot {
+      width: 75%; }
+    .article_bot #p_estimulacion {
+      width: 100%; }
+    .article_bot #estimulacion_bot {
+      width: 100%; }
+    .article_bot #p_gestion {
+      width: 100%; }
+    .article_bot #gestion_bot {
+      width: 60%; }
   .div_container_img_bot {
     background-color: #e0d700; } }

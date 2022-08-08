@@ -443,11 +443,18 @@ width: 100%;
 
     
     .article_bot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         p{
+            width: 100%;
          color: white;
+         margin: 1rem;
+         object-position: center;
         }
          #p_datos{
-             width: 10.5rem ;
+            width: 100%;
+             
          }
          #datos_bot{
              width: 50%;
@@ -456,7 +463,7 @@ width: 100%;
          #p_inteligencia{
              justify-content: center;
              text-align: center;
-             width: 20rem ;
+             width: 100%;
          }
          #inteligencia_bot{
              width: 100%;
@@ -469,13 +476,13 @@ width: 100%;
              width: 75%;
          }
          #p_estimulacion{
-             width: 21.7rem;
+             width: 100%;
          }
          #estimulacion_bot{
              width: 100%;
          }
          #p_gestion{
-             width: 13.7rem;
+             width:100%;
          }
          #gestion_bot{
              width: 60%;

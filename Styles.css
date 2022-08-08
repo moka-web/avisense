@@ -10,6 +10,9 @@
   padding: 1rem;
   text-decoration: underline; }
 
+.logo_responsive {
+  display: none; }
+
 .logo1 {
   width: 14rem;
   padding-left: 1rem; }
@@ -34,10 +37,10 @@
   text-decoration: underline; }
 
 .rendimiento_div:hover .rendimiento {
-  background-color: #e0d31f; }
+  background-color: #e1ca00; }
 
 .rendimiento {
-  background-color: #bdbdbc;
+  background-color: #d1d1d1;
   width: 100%;
   height: 100%; }
 
@@ -53,7 +56,7 @@
   background-color: black; }
 
 .bots {
-  background-color: #bdbdbc;
+  background-color: #d1d1d1;
   height: 100%;
   width: 100%; }
 
@@ -69,7 +72,7 @@
   background-color: #b13b3b; }
 
 .sistema {
-  background-color: #bdbdbc;
+  background-color: #d1d1d1;
   height: 100%;
   width: 100%; }
 
@@ -78,7 +81,7 @@
   height: 100%; }
 
 .body_rendimiento {
-  background-color: #e0d31f; }
+  background-color: #e1ca00; }
 
 .rendimiento_main {
   margin-top: 5rem; }
@@ -156,7 +159,7 @@
   margin-top: 0; }
 
 .nuestros_bot {
-  background-color: #bdbdbc;
+  background-color: #d1d1d1;
   padding-bottom: 1rem; }
   .nuestros_bot h2 {
     margin-bottom: 5rem;
@@ -167,6 +170,23 @@
     width: 50%;
     margin-left: 1rem;
     margin-top: 2rem; }
+
+.section_implementacion_bots {
+  background-color: #d1d1d1; }
+  .section_implementacion_bots .div1_section_implementacion {
+    background-color: #b13b3b;
+    padding-top: 1rem;
+    height: 20rem; }
+    .section_implementacion_bots .div1_section_implementacion h2 {
+      padding-top: 6rem;
+      margin-left: 1rem;
+      text-decoration: underline;
+      width: 50%; }
+
+.article_implementacion_bot {
+  padding: 2rem; }
+  .article_implementacion_bot h2 {
+    text-decoration: underline; }
 
 .body_sistema {
   background-color: #b13b3b; }
@@ -183,3 +203,88 @@
   width: 100%;
   height: 400px;
   object-fit: cover; }
+
+@media (max-width: 768px) {
+  #navbarNav {
+    padding-right: 1rem; }
+  .nav-link {
+    margin-left: 5rem;
+    padding: 1rem;
+    text-decoration: underline; }
+  .navbar_list {
+    display: none; }
+  .logo1 {
+    width: 14rem;
+    padding-left: 1rem; }
+  .logo2 {
+    display: none;
+    margin-left: 5rem;
+    width: 2rem; }
+  .section_main_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    height: 23rem; }
+  .span {
+    visibility: visible;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 6rem; }
+  .rendimiento_div {
+    display: flex;
+    justify-content: space-between; }
+  .rendimiento_div:hover .span {
+    visibility: visible;
+    text-decoration: underline; }
+  .rendimiento_div:hover .rendimiento {
+    background-color: #e1ca00; }
+  .rendimiento {
+    background-color: #d1d1d1;
+    width: 15rem;
+    height: 100%; }
+  .img_rendimiento {
+    width: 100%;
+    height: 100%; }
+  .bots_div:hover .span {
+    visibility: visible;
+    text-decoration: underline; }
+  .bots_div:hover .bots {
+    background-color: black; }
+  .bots_div {
+    display: flex;
+    justify-content: space-between; }
+  .bots {
+    background-color: #d1d1d1;
+    height: 15rem;
+    width: 15rem;
+    background-image: url("/Images/VECTOR BOTS HORIZONTAL.png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .img_bots {
+    display: none; }
+  .sistemas_div:hover .span {
+    visibility: visible;
+    text-decoration: underline; }
+  .sistemas_div:hover .sistema {
+    background-color: #b13b3b; }
+  .sistemas_div {
+    display: flex;
+    justify-content: space-between; }
+  .sistema {
+    background-color: #d1d1d1;
+    height: 100%;
+    width: 15rem; }
+  .img_sistema {
+    width: 100%;
+    height: 100%; }
+  .section_bot_mainIMG {
+    width: 100%;
+    height: 50rem;
+    background-image: url("/Images/RENDER BOT VERTICAL.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .section_bot_mainIMG img {
+      display: none; }
+  .row_bots {
+    display: flex;
+    flex-direction: column; } }

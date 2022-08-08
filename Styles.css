@@ -2,13 +2,20 @@
   padding: 0;
   margin: 0; }
 
+.mensajeabout {
+  position: absolute;
+  font-size: 15px;
+  width: 15rem;
+  display: none; }
+
 #navbarNav {
   padding-right: 1rem; }
 
 .nav-link {
   margin-left: 5rem;
   padding: 1rem;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-family: 'Inter', sans-serif; }
 
 .logo_responsive {
   display: none; }
@@ -26,12 +33,12 @@
 
 .section_main_container {
   display: flex;
-  margin-top: 5rem;
-  margin-bottom: 1.5;
-  height: 27rem; }
+  margin-top: 7rem;
+  margin-bottom: 1.5rem; }
 
 .span {
-  visibility: hidden; }
+  visibility: hidden;
+  font-family: 'Inter', sans-serif; }
 
 .rendimiento_div:hover .span {
   visibility: visible;
@@ -42,12 +49,10 @@
 
 .rendimiento {
   background-color: #d1d1d1;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .img_rendimiento {
-  width: 100%;
-  height: 100%; }
+  width: 96.5%; }
 
 .bots_div:hover .span {
   visibility: visible;
@@ -58,12 +63,10 @@
 
 .bots {
   background-color: #d1d1d1;
-  height: 100%;
   width: 100%; }
 
 .img_bots {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .sistemas_div:hover .span {
   visibility: visible;
@@ -74,12 +77,10 @@
 
 .sistema {
   background-color: #d1d1d1;
-  height: 100%;
   width: 100%; }
 
 .img_sistema {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .body_rendimiento {
   background-color: #e1ca00; }
@@ -87,7 +88,8 @@
 .rendimiento_main {
   margin-top: 5rem; }
   .rendimiento_main .title_rendimiento {
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif; }
 
 .contenedorImg {
   margin-top: 8rem; }
@@ -97,6 +99,7 @@
 .contenedorParrafo {
   margin-top: 5rem; }
   .contenedorParrafo p {
+    font-family: 'Inter', sans-serif;
     display: block;
     text-align: start; }
 
@@ -120,7 +123,9 @@
   margin-left: calc(-.5 * var(--bs-gutter-x)); }
 
 .article_bot p {
-  color: white; }
+  color: white;
+  padding: 1rem;
+  font-family: 'Inter', sans-serif; }
 
 .article_bot #p_datos {
   width: 10.5rem; }
@@ -160,14 +165,16 @@
   margin-top: 0; }
 
 .nuestros_bot {
-  background-color: #d1d1d1;
+  background-color: #908f8e;
   padding-bottom: 1rem; }
   .nuestros_bot h2 {
-    margin-bottom: 5rem;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 3rem;
     margin-left: 1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     text-decoration: underline; }
   .nuestros_bot p {
+    font-family: 'Inter', sans-serif;
     width: 50%;
     margin-left: 1rem;
     margin-top: 2rem; }
@@ -175,10 +182,11 @@
 .section_implementacion_bots {
   background-color: #d1d1d1; }
   .section_implementacion_bots .div1_section_implementacion {
-    background-color: #b13b3b;
+    background-color: #e04b29;
     padding-top: 1rem;
-    height: 20rem; }
+    height: 15rem; }
     .section_implementacion_bots .div1_section_implementacion h2 {
+      font-family: 'Inter', sans-serif;
       padding-top: 6rem;
       margin-left: 1rem;
       text-decoration: underline;
@@ -187,7 +195,10 @@
 .article_implementacion_bot {
   padding: 2rem; }
   .article_implementacion_bot h2 {
+    font-family: 'Inter', sans-serif;
     text-decoration: underline; }
+  .article_implementacion_bot h3 {
+    font-family: 'Inter', sans-serif; }
 
 .body_sistema {
   background-color: #b13b3b; }
@@ -197,6 +208,7 @@
   margin-left: 3rem;
   width: 20rem; }
   .h2_sistema h2 {
+    font-family: 'Inter', sans-serif;
     text-decoration: underline; }
 
 .img_sistema_ {

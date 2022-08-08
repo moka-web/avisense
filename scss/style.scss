@@ -35,8 +35,9 @@ padding-left: 1rem;
 
 .section_main_container{
     display: flex;
-    margin-top: 7rem;
-    height: 23rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5;
+    height: 27rem;
 }
 
 .span{
@@ -157,7 +158,7 @@ width: 100%;
 .section_bot_descripcion{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #161715;
     
 }
 
@@ -370,7 +371,7 @@ width: 100%;
             text-decoration: underline;
         }
         .bots{
-            background-color: black;
+            background-color: #161715;
         }
     }
     .bots_div{
@@ -440,6 +441,50 @@ width: 100%;
         
     }
 
+    
+    .article_bot{
+        p{
+         color: white;
+        }
+         #p_datos{
+             width: 10.5rem ;
+         }
+         #datos_bot{
+             width: 50%;
+         }
+     
+         #p_inteligencia{
+             justify-content: center;
+             text-align: center;
+             width: 20rem ;
+         }
+         #inteligencia_bot{
+             width: 100%;
+         }
+     
+         #p_dashboard{
+             width: 100%;
+         }
+         #dashboard_bot{
+             width: 75%;
+         }
+         #p_estimulacion{
+             width: 21.7rem;
+         }
+         #estimulacion_bot{
+             width: 100%;
+         }
+         #p_gestion{
+             width: 13.7rem;
+         }
+         #gestion_bot{
+             width: 60%;
+         }
+     }
+
+     .div_container_img_bot{
+        background-color: #e0d700;
+     }
     
 
 }

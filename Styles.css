@@ -296,7 +296,7 @@
     .article_bot p {
       width: 100%;
       color: white;
-      margin: 1rem;
+      padding: 1rem;
       object-position: center; }
     .article_bot #p_datos {
       width: 100%; }

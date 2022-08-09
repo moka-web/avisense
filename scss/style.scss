@@ -15,7 +15,7 @@
     padding-right: 1rem;
 }
 .nav-link{
-    margin-left: 20vh;
+    margin-left: 15vh;
     margin-top: 3vh;
     text-decoration: underline;
     font-family: 'Inter', sans-serif;
@@ -34,15 +34,12 @@
 
 .logo2{
     margin-top: 1rem;
-    margin-left: 20vh;
+    margin-left: 15vh;
     width: 4vh;
 }
+
 .section_main{
-    
-    
-    margin-top: 21vh;
-    margin-bottom: 1.5rem ;
-    
+    margin-bottom: 1.5rem ;   
 }
 
 .section_main_container{
@@ -171,6 +168,9 @@ height: 100%;
 
 //bots
 
+.div_responsive{
+    display: none;
+}
 
 .section_bot_mainIMG{
     width: 100%;
@@ -189,11 +189,8 @@ height: 100%;
 }
 
 
-
-
-
 .div_container_img_bot{
-    width:10%;
+    width:100%;
 }
 .articles_bot_main{
     width: 100%;
@@ -213,9 +210,6 @@ height: 100%;
    
    }
 }
-
-
-
 
 
 .vectores_bot{
@@ -273,9 +267,10 @@ height: 100%;
 
 
 .contenedor_article_bot{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
 }
-
 
 .article_implementacion_bot{
     text-align: start;
@@ -367,19 +362,22 @@ p{
 //main
 
 
+    
     .section_main_container{
+       height: 8vh;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        bottom: 40vh;
         
-        margin-top: 7rem;
-        height: 23rem;
     }
-    
+
     .span{
         visibility: visible;
         text-decoration: underline;
         font-weight: bold;
-        margin-top: 6rem;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
     
     .rendimiento_div{
@@ -399,7 +397,7 @@ p{
     
     .rendimiento{
         background-color:#d1d1d1;
-        width: 15rem;
+        width: 50%;
         height: 100%;
         
     }
@@ -427,11 +425,11 @@ p{
     
     .bots{
         background-color:#d1d1d1;
-        height: 15rem;
-        width: 15rem;
+        height: 100%;
+        width: 50%;
         background-image: url('/Images/VECTOR\ BOTS\ HORIZONTAL.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: contain
     }
     
     .img_bots{
@@ -455,7 +453,7 @@ p{
     .sistema{
     background-color:#d1d1d1;
     height: 100%;
-    width: 15rem;
+    width: 50%;
     
     
     }
@@ -465,12 +463,53 @@ p{
         height: 100%;
 
     }
+
+
+
+    //rendimiento
+
+    .contenedorImg{
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+    
+        img{ 
+            width: 60%;
+            margin-right: 5vh;
+            margin-bottom: 2vh;
+        }
+    }
+
+
+    .contenedorParrafo{
+        padding-top: 2vh;
+        p{
+            font-family: 'Inter', sans-serif;
+            display: block;
+           text-align: start;
+           font-size: small;
+        }
+    }
  
     //bots
+    .div_responsive{
+        display: block;
+        background-color:#e0d700 ;
+        height: 30vh;
 
+        h2{
+            padding-top: 12.5vh;
+           margin-left: 3vh;
+           text-decoration: underline;
+           font-family: 'Inter', sans-serif;
+        }
+    }
     .section_bot_mainIMG{
+
+
         width: 100%;
-        height: 50rem;
         background-image: url('/Images/RENDER\ BOT\ VERTICAL.jpg');
         background-size: cover; 
         background-repeat: no-repeat;
@@ -480,21 +519,134 @@ p{
         }
     }
 
-    .row_bots{
-    
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .articles_bot_main{
-        width: 100%;
-    }
-
-    
-   
 
      .div_container_img_bot{
         background-color: #e0d700;
+        width: 100%;
+     }
+
+
+     .section_bot_descripcion{
+        width: 100%;
+        height: 100%;
+        background-color: #161715;
+        
+    }
+
+    
+    .articles_bot_main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       article{
+        img{
+            width: 100%;
+        }
+        p{
+            color: white;
+            padding: 1rem;
+    
+        }
+        #p_dashboard{
+           width:100%;
+        }
+
+        #dashboard_bot{
+            width: 80%;
+        }
+
+        #datos_bot{
+          width: 50%;
+        }
+
+        #gestion_bot{
+            width: 65%;
+        }
+
+       
+       }
+    }
+    
+    
+    
+    
+    
+    .vectores_bot{
+        padding-top: 2rem;
+        margin: 2rem;
+        margin-top: 0;
+    }
+    
+    .nuestros_bot{
+        background-color:#908f8e ;
+        padding-bottom: 1rem;
+    
+        h2{
+            font-family: 'Inter', sans-serif;
+            font-size: 1.7rem;
+            margin-bottom: 3rem;
+            margin-left: 3vh;
+            padding-top: 6vh;
+            text-decoration: underline;
+        }
+    
+        p{
+            font-family: 'Inter', sans-serif;
+            width: 90%;
+            padding: 0vh;
+            margin-top: 2rem;
+            text-align: center;
+            
+        }
+    }
+    
+    .section_implementacion_bots{
+        background-color: #d1d1d1;
+       
+       
+        .div1_section_implementacion{
+            background-color: #e04b29 ;
+            padding-top: 1rem;
+            height: 14rem;
+    
+            h2{
+                font-family: 'Inter', sans-serif;
+                padding-top: 2rem;
+                margin-left: 1rem;
+                margin-bottom: 4rem;
+                text-decoration: underline;
+                width: 50%;
+                font-size: 1.3rem;
+                
+            }
+            
+        }
+    
+    
+    
+    }
+    
+    
+    .contenedor_article_bot{
+        margin-top: 2rem;
+    }
+    
+    
+    .article_implementacion_bot{
+        text-align: start;
+        margin-top: 1vh;
+        padding: 10vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 3vh;
+     h3{
+        text-decoration: underline;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
      }
     
      .carrousel{
@@ -504,5 +656,40 @@ p{
      .img_vectores_bot{
         display: none;
      }
+
+
+     
+
+
+
+     //sistema
+
+     .body_sistema{
+        background-color: rgb(177, 59, 59) ;
+    }
+    
+    .h2_sistema{
+        
+        h2{
+           margin-left: 5vh;
+            width: 30vh;
+            font-family: 'Inter', sans-serif;
+            text-decoration: underline;
+            
+        }
+        
+    }
+    
+    .footer_sistema{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+    .img_sistema_{
+        width: 100%;
+       height: 60vh;
+       object-fit: cover;
+    }
 
 }

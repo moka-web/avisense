@@ -44,6 +44,7 @@
   font-family: 'Inter', sans-serif; }
 
 .rendimiento_div:hover .span {
+  color: #161715;
   visibility: visible;
   text-decoration: underline; }
 
@@ -63,6 +64,7 @@
   height: 100%; }
 
 .bots_div:hover .span {
+  color: #161715;
   visibility: visible;
   text-decoration: underline; }
 
@@ -81,6 +83,7 @@
   height: 100%; }
 
 .sistemas_div:hover .span {
+  color: #161715;
   visibility: visible;
   text-decoration: underline; }
 

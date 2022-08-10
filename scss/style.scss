@@ -9,6 +9,7 @@
     font-size: 15px;
     width: 15rem;
    display: none;
+   background-color: white;
 }
 
 #navbarNav{
@@ -22,10 +23,6 @@
 
 }
 
-.logo_responsive{
-    display: none;
-}
-
 .logo1{
     
     width: 35vh;
@@ -36,6 +33,26 @@
     margin-top: 1rem;
     margin-left: 15vh;
     width: 4vh;
+}
+
+.logoResponsive{
+    width: 35vh;
+    padding-left: 1rem;
+    
+}
+
+.textoResponsive{
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    p{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: 50%;
+        font-family: 'Inter', sans-serif;
+    }
+
 }
 
 .section_main{

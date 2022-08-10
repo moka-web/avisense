@@ -153,7 +153,7 @@
     color: white;
     padding: 1rem; }
   .articles_bot_main article #p_dashboard {
-    width: 41vh; }
+    width: 41.5vh; }
 
 .vectores_bot {
   padding-top: 2rem;
@@ -252,6 +252,8 @@
     flex-direction: column;
     justify-content: center;
     bottom: 40vh; }
+    .section_main_container a {
+      color: #161715; }
   .span {
     visibility: visible;
     text-decoration: underline;

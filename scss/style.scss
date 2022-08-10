@@ -209,7 +209,7 @@ height: 100%;
 
     }
     #p_dashboard{
-       width: 41vh;
+       width: 41.5vh;
     }
    
    }
@@ -373,10 +373,13 @@ p{
         flex-direction: column;
         justify-content: center;
         bottom: 40vh;
-        
+        a{
+            color: #161715;
+        }
     }
 
     .span{
+        
         visibility: visible;
         text-decoration: underline;
         font-weight: bold;

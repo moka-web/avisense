@@ -427,7 +427,8 @@
     .article_implementacion_bot p {
       font-size: 1.3rem; }
   .carrousel {
-    display: block; }
+    display: block;
+    height: 40vh; }
   .img_vectores_bot {
     display: none; }
   .carousel-indicators [data-bs-target] {
@@ -435,7 +436,7 @@
     border-radius: 50%;
     height: 10px;
     width: 10px;
-    bottom: -7vh; }
+    bottom: -5vh; }
   .body_sistema {
     background-color: #b13b3b; }
   .h2_sistema h2 {

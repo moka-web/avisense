@@ -675,14 +675,21 @@ p{
     
      .carrousel{
         display: block;
+        
+        //height: 40vh;
      }
 
      .img_vectores_bot{
         display: none;
      }
 
-
-     
+     .carousel-indicators [data-bs-target]{
+        position: relative;
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        bottom: -7vh;
+     }
 
 
 

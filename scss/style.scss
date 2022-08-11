@@ -45,7 +45,8 @@
     height: 100%;
     background-color: white;
     position: absolute;
-    z-index: 2;
+    z-index: 100;
+  
     p{
         width: 50%;
         margin-left: 40%;
@@ -690,7 +691,9 @@ p{
         bottom: -5vh;
      }
 
-
+     .img_carousel{
+        width: 45vh;
+     }
 
      //sistema
 

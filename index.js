@@ -23,11 +23,13 @@ const toggler = document.getElementById('button')
 const showMessage = ()=>{
 
     if( mostrar===true ){
+
         document.getElementById('logo1').style.display='none'
         document.getElementById('imagenResponsive').style.display='block'
         document.getElementById('textoResponsive').style.display='block'
         console.log('el boton funciona')
         mostrar=false
+        
     }else{
         console.log('entra en el else')
         document.getElementById('logo1').style.display='block'

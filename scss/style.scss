@@ -153,7 +153,7 @@ height: 100%;
 //rendimiento
 
 .body_rendimiento{
-    background-color:#e1ca00;
+    background-color: #908f8e;
 }
 
 .rendimiento_main{
@@ -166,8 +166,29 @@ height: 100%;
     }
     
 }
+ .rendimiento_main_texto{
+    background-color: #e1ca00;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+ }
+
+ .contenedorParrafo{
+    padding-left: 5vh;
+    padding-top: 4%;
+    p{
+        font-family: 'Inter', sans-serif;
+        display: block;
+       text-align: start;
+    }
+}
+
+
+
+
 .contenedorImg{
-    margin-top: 15vh;
+    margin-top: 12vh;
    display: flex;
    justify-content:start;
    
@@ -178,14 +199,7 @@ height: 100%;
     }
 }
 
-.contenedorParrafo{
-    padding-top: 15vh;
-    p{
-        font-family: 'Inter', sans-serif;
-        display: block;
-       text-align: start;
-    }
-}
+
 
 
 //bots
@@ -198,6 +212,7 @@ height: 100%;
     width: 100%;
     height: 30rem;
     img{
+        object-fit: cover;
         width: 100%;
         height: 100%;
     }
@@ -339,6 +354,7 @@ p{
     
 }
 .img_sistema_{
+    object-fit: cover;
     width: 100%;
    height: 60vh;
 }

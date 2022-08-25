@@ -417,11 +417,12 @@
     .nuestros_bot_text h2 {
       padding: 3vh;
       font-family: 'Inter', sans-serif;
-      text-decoration: underline; }
+      text-decoration: underline;
+      font-size: 4vw; }
     .nuestros_bot_text p {
       font-family: 'Inter', sans-serif;
       padding: 3vh;
-      font-size: 0.8rem; }
+      font-size: 2vw; }
   .vectores_bot {
     height: 60%;
     padding: 2rem; }

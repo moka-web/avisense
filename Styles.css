@@ -194,7 +194,7 @@
     .vectores_bot .img_vectores_bot img {
       height: 45vh;
       width: 45vw;
-      object-fit: contain; }
+      object-fit: scale-down; }
 
 .nuestros_bot_text {
   background-color: #908f8e;
@@ -412,7 +412,6 @@
     background-color: #908f8e;
     height: 60vh; }
     .nuestros_bot_text h2 {
-      padding-top: 25%;
       font-family: 'Inter', sans-serif;
       text-decoration: underline;
       font-size: 4vw; }
@@ -474,7 +473,7 @@
     border-radius: 50%;
     height: 10px;
     width: 10px;
-    bottom: -5vh; }
+    bottom: 5vh; }
   .body_sistema {
     background-color: #b13b3b; }
   .h2_sistema h2 {

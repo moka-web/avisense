@@ -271,7 +271,7 @@ height: 100%;
         img{
             height: 45vh;
             width: 45vw;
-           object-fit: contain;
+            object-fit: scale-down;
            
         }
     }
@@ -648,7 +648,7 @@ p{
        
     
         h2{
-            padding-top: 25%;
+           
             font-family: 'Inter', sans-serif;
             text-decoration: underline;
             font-size: 4vw;
@@ -750,7 +750,7 @@ p{
         border-radius: 50%;
         height: 10px;
         width: 10px;
-        bottom: -5vh;
+        bottom: 5vh;
      }
 
      

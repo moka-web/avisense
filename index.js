@@ -21,7 +21,7 @@ function mostrarMensaje (){
 const toggler = document.getElementById('button')
 
 const showMessage = ()=>{
-
+    console.log('entra')
     if( mostrar===true ){
 
         document.getElementById('logo1').style.display='none'
@@ -33,6 +33,27 @@ const showMessage = ()=>{
     }else{
         console.log('entra en el else')
         document.getElementById('logo1').style.display='block'
+        document.getElementById('imagenResponsive').style.display='none'
+        document.getElementById('textoResponsive').style.display='none'
+        mostrar=true
+    }
+    
+
+}
+
+const showMessageBOTS = ()=>{
+    console.log('entra')
+    if( mostrar===true ){
+
+       
+        document.getElementById('imagenResponsive').style.display='block'
+        document.getElementById('textoResponsive').style.display='block'
+        console.log('el boton funciona')
+        mostrar=false
+        
+    }else{
+        console.log('entra en el else')
+        
         document.getElementById('imagenResponsive').style.display='none'
         document.getElementById('textoResponsive').style.display='none'
         mostrar=true

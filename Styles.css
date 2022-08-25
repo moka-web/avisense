@@ -4,7 +4,8 @@
 
 .header_bots {
   position: absolute;
-  right: 0; }
+  right: 0;
+  z-index: 200; }
 
 .mensajeabout {
   position: absolute;
@@ -186,15 +187,16 @@
   background-color: #161715; }
 
 .vectores_bot {
-  height: 60%;
-  padding-top: 2vw; }
+  height: 60%; }
   .vectores_bot .img_vectores_bot {
     display: flex;
     justify-content: space-around; }
+    .vectores_bot .img_vectores_bot div {
+      padding: 1rem; }
     .vectores_bot .img_vectores_bot img {
-      height: 50vh;
-      width: 45vw;
-      object-fit: fill; }
+      height: 80%;
+      width: 100%;
+      object-fit: contain; }
 
 .nuestros_bot_text {
   background-color: #908f8e;

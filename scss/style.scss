@@ -6,7 +6,11 @@
 .header_bots{
     position: absolute;
     right: 0;
+    z-index: 200;
+
 }
+
+
 .mensajeabout{
     position: absolute;
     font-size: 15px;
@@ -263,16 +267,20 @@ height: 100%;
 
 .vectores_bot{
     height: 60%;
-    padding-top: 2vw;
+    
     
     .img_vectores_bot{
         display: flex;
         justify-content: space-around;
-        img{
-            height: 50vh;
-            width: 45vw;
-            object-fit: fill;
+        div{
+            padding: 1rem;
            
+        }
+        img{
+            height: 80%;
+            width: 100%;
+            object-fit: contain;
+            
         }
     }
     

@@ -490,7 +490,7 @@
     height: 60vh;
     object-fit: cover; } }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   .section_implementacion_bots {
     background-color: #d1d1d1;
     height: 100vh; }

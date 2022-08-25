@@ -431,7 +431,7 @@
         display: none; }
   .section_implementacion_bots {
     background-color: #d1d1d1;
-    height: 190vh; }
+    height: 120vh; }
     .section_implementacion_bots .div1_section_implementacion {
       background-color: #e04b29;
       padding-top: 1vh;
@@ -489,19 +489,3 @@
     width: 100%;
     height: 60vh;
     object-fit: cover; } }
-
-@media (min-width: 300px) {
-  .section_implementacion_bots {
-    background-color: #d1d1d1;
-    height: 100vh; }
-    .section_implementacion_bots .div1_section_implementacion {
-      background-color: #e04b29;
-      padding-top: 1vh;
-      height: 20%; }
-      .section_implementacion_bots .div1_section_implementacion h2 {
-        font-family: 'Inter', sans-serif;
-        padding-top: 6.5vh;
-        margin-left: 1rem;
-        text-decoration: underline;
-        width: 50%;
-        font-size: 4vw; } }

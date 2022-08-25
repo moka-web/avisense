@@ -3,7 +3,10 @@
     margin: 0;
 }
 
-
+.header_bots{
+    position: absolute;
+    right: 0;
+}
 .mensajeabout{
     position: absolute;
     font-size: 15px;
@@ -154,24 +157,25 @@ height: 100%;
 
 .body_rendimiento{
     background-color: #908f8e;
+    height: 100vh;
 }
 
 .rendimiento_main{
-    margin-top: 3vh;
-    margin-left: 4vh;
+    height: 48.5vh;
     .title_rendimiento{
         text-decoration: underline;
         font-family: 'Inter', sans-serif;
-        
+        padding-left: 4vh;
     }
     
 }
  .rendimiento_main_texto{
     background-color: #e1ca00;
-    position: absolute;
-    bottom: 0;
+   
     width: 100%;
-    height: 35%;
+    height: 40vh;
+    bottom: 0;
+    
  }
 
  .contenedorParrafo{
@@ -188,14 +192,15 @@ height: 100%;
 
 
 .contenedorImg{
-    margin-top: 12vh;
-   display: flex;
-   justify-content:start;
+    padding-top: 8vh;
+    display: flex;
+    justify-content:space-around;
    
 
     img{ 
-        width: 30%;
-        margin-right: 5vh;
+        object-fit: scale-down;
+        width: 60vh;
+        
     }
 }
 
@@ -210,17 +215,17 @@ height: 100%;
 
 .section_bot_mainIMG{
     width: 100%;
-    height: 30rem;
+    
     img{
-        object-fit: cover;
+        object-fit: fill;
         width: 100%;
-        height: 100%;
+       
     }
 }
 
 .section_bot_descripcion{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #161715;
     
 }
@@ -230,81 +235,101 @@ height: 100%;
     width:100%;
 }
 .articles_bot_main{
+    height: 30vh;
     width: 100%;
     display: flex;
    article{
+    
     img{
         width: 100%;
     }
     p{
         color: white;
-        padding: 1rem;
-
+        padding: 1vh;
+        word-wrap: break-word;
+        font-size: 1vw; 
+        
     }
-    
-   
    }
+}
+
+.nuestros_bot_section{
+    padding-top: 5vh;
+   height: 100vh;
+    background-color: #161715;
+    
 }
 
 
 .vectores_bot{
-    padding-top: 2rem;
-    margin: 2rem;
-    margin-top: 0;
+    height: 60%;
+    padding-top: 2vw;
+    
+    .img_vectores_bot{
+        display: flex;
+        justify-content: space-around;
+        img{
+            height: 45vh;
+            width: 45vw;
+           object-fit: contain;
+           
+        }
+    }
+    
+    
 }
 
-.nuestros_bot{
+
+
+.nuestros_bot_text{
     background-color:#908f8e ;
-    padding-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+   
 
     h2{
+        padding: 3vh;
         font-family: 'Inter', sans-serif;
-        font-size: 1.7rem;
-        margin-bottom: 3rem;
-        margin-left: 3vh;
-        padding-top: 6vh;
         text-decoration: underline;
+        font-size: 2vw;
+
     }
 
     p{
         font-family: 'Inter', sans-serif;
-        width: 50%;
-        margin-left: 1rem;
-        margin-top: 2rem;
-        
+        padding: 4vh;
+        margin-bottom: 0;
+        font-size: 1vw;
     }
 }
 
 .section_implementacion_bots{
     background-color: #d1d1d1;
-   
+    height: 100vh;
    
     .div1_section_implementacion{
         background-color: #e04b29 ;
         padding-top: 1rem;
-        height: 14rem;
+        height: 30%;
 
         h2{
             font-family: 'Inter', sans-serif;
-            padding-top: 4rem;
+            padding-top: 6.5vh;
             margin-left: 1rem;
             text-decoration: underline;
             width: 50%;
-            font-size: 1.7rem;
+            font-size: 2vw;
             
         }
         
     }
-
-
-
 }
 
 
 .contenedor_article_bot{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 1vh;
 }
 
 .article_implementacion_bot{
@@ -317,10 +342,10 @@ height: 100%;
  h3{
     text-decoration: underline;
     font-family: 'Inter', sans-serif;
-    font-size: 1.7rem;
+    font-size: 2vw;
 }
 p{
-    font-size: 1.4rem;
+    font-size: 2vw;
 }
  }
 
@@ -533,46 +558,47 @@ p{
     }
  
     //bots
+    
     .div_responsive{
         display: block;
-        background-color:#e0d700 ;
+        background-color: #e0d700;
+        padding-top: 25%;
+        padding-left: 5%;
         height: 30vh;
-
         h2{
-            padding-top: 12.5vh;
-           margin-left: 3vh;
-           text-decoration: underline;
-           font-family: 'Inter', sans-serif;
+            text-decoration: underline;
+            font-family: 'Inter', sans-serif ;
+            font-size: 5vw;
         }
     }
+    
     .section_bot_mainIMG{
-
-
         width: 100%;
         background-image: url('/Images/RENDER\ BOT\ VERTICAL.jpg');
-        background-size: cover; 
         background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
         img{
-           display: none;
+            object-fit: fill;
+            width: 100%;
+            display: none;
            
         }
     }
 
-
-     .div_container_img_bot{
-        background-color: #e0d700;
+    .section_bot_descripcion{
         width: 100%;
-     }
-
-
-     .section_bot_descripcion{
-        width: 100%;
-        height: 100%;
+        height: 200vh;
         background-color: #161715;
         
     }
 
-    
+    .div_container_img_bot{
+        width:100%;
+        background-color: #e0d700;
+    }
+
+
     .articles_bot_main{
         width: 100%;
         display: flex;
@@ -584,6 +610,7 @@ p{
         p{
             color: white;
             padding: 1rem;
+            font-size: 2vw; 
     
         }
         #p_dashboard{
@@ -605,97 +632,117 @@ p{
        
        }
     }
-    
-    
-    
-    
-    
-    .vectores_bot{
-        padding-top: 2rem;
-        margin: 2rem;
-        margin-top: 0;
+
+
+    .nuestros_bot_section{
+        background-color: #161715;
+        height: 100vh;
+        padding-bottom: 10vh;
     }
     
-    .nuestros_bot{
+    
+    .nuestros_bot_text{
         background-color:#908f8e ;
         padding-bottom: 1rem;
+        height: 60vh;
+       
     
         h2{
+            padding: 3vh;
             font-family: 'Inter', sans-serif;
-            font-size: 1.7rem;
-            margin-bottom: 3rem;
-            margin-left: 3vh;
-            padding-top: 6vh;
             text-decoration: underline;
+    
         }
     
         p{
             font-family: 'Inter', sans-serif;
-            width: 90%;
-            padding: 0vh;
-            margin-top: 2rem;
-            text-align: center;
+            padding: 3vh;
+            font-size: 0.8rem;
+            
             
         }
     }
-    
+
+
+    .vectores_bot{
+        height: 60%;
+        padding: 2rem;
+        
+        .img_vectores_bot{
+            display: flex;
+            justify-content: space-around;
+            img{
+                height: 30vh;
+                width: 30vw;
+                display: none;
+            }
+        }
+        
+        
+    }
+
+
     .section_implementacion_bots{
         background-color: #d1d1d1;
-       
+        height: 100vh;
        
         .div1_section_implementacion{
             background-color: #e04b29 ;
             padding-top: 1rem;
-            height: 14rem;
+            height: 20%;
     
             h2{
                 font-family: 'Inter', sans-serif;
-                padding-top: 2rem;
+                padding-top: 6.5vh;
                 margin-left: 1rem;
-                margin-bottom: 4rem;
                 text-decoration: underline;
                 width: 50%;
-                font-size: 1.3rem;
+                font-size: 2vw;
                 
             }
             
         }
-    
-    
-    
     }
     
     
     .contenedor_article_bot{
-        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1vh;
     }
-    
     
     .article_implementacion_bot{
         text-align: start;
         margin-top: 1vh;
-        padding: 10vh;
-        padding-top: 3vh;
+        padding: 8vh;
+        padding-top: 1vh;
         padding-bottom: 3vh;
         padding-left: 3vh;
      h3{
         text-decoration: underline;
         font-family: 'Inter', sans-serif;
-        font-size: 1.3rem;
+        font-size: 2vw;
     }
     p{
-        font-size: 1.3rem;
+        font-size: 2vw;
     }
      }
     
+
+
      .carrousel{
         display: block;
+        height: 50vh;
+        width: 100%;
+
+     }
+     .img_carousel{
+        width: 80vw;
         height: 40vh;
+        object-fit: contain;
      }
 
-     .img_vectores_bot{
-        display: none;
-     }
+
 
      .carousel-indicators [data-bs-target]{
         position: relative;
@@ -705,9 +752,7 @@ p{
         bottom: -5vh;
      }
 
-     .img_carousel{
-        width: 45vh;
-     }
+     
 
      //sistema
 

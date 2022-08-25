@@ -445,7 +445,7 @@
         margin-left: 1rem;
         text-decoration: underline;
         width: 50%;
-        font-size: 2vw; }
+        font-size: 4vw; }
   .contenedor_article_bot {
     display: flex;
     flex-wrap: wrap;
@@ -460,9 +460,9 @@
     .article_implementacion_bot h3 {
       text-decoration: underline;
       font-family: 'Inter', sans-serif;
-      font-size: 2vw; }
+      font-size: 4vw; }
     .article_implementacion_bot p {
-      font-size: 2vw; }
+      font-size: 4vw; }
   .carrousel {
     display: block;
     height: 50vh;

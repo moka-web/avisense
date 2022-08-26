@@ -136,12 +136,11 @@
   padding-top: 15vh; }
 
 .contenedorImg {
-  padding-top: 15vh;
+  padding-top: 5%;
   display: flex;
   justify-content: space-around; }
   .contenedorImg img {
-    object-fit: scale-down;
-    width: 30vw; }
+    width: 30%; }
 
 .contenedorParrafo {
   padding-left: 4vh;
@@ -152,7 +151,8 @@
   .contenedorParrafo p {
     font-family: 'Inter', sans-serif;
     display: block;
-    text-align: start; }
+    text-align: start;
+    font-size: 2.5vh; }
 
 .div_responsive {
   display: none; }

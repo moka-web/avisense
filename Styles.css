@@ -7,6 +7,26 @@
   right: 0;
   z-index: 200; }
 
+.header_sistemas {
+  position: absolute;
+  right: 0;
+  z-index: 300;
+  top: 0; }
+
+#hamburguesaOff {
+  font-size: xx-large; }
+
+#button {
+  border: none !important; }
+
+button:focus:not(:focus-visible) {
+  outline: none; }
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none; }
+
 .mensajeabout {
   position: absolute;
   font-size: 15px;
@@ -124,7 +144,8 @@
 
 .header_rendimiento {
   position: absolute;
-  right: 0; }
+  right: 0;
+  z-index: 300; }
 
 .rendimiento_main .title_rendimiento {
   text-decoration: underline;

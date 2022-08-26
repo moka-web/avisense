@@ -45,7 +45,8 @@ const showMessageBOTS = ()=>{
     console.log('entra')
     if( mostrar===true ){
 
-       
+        document.getElementById('hamburguesaOff').style.display='block'
+        document.getElementById('hamburguesa').style.display='none'
         document.getElementById('imagenResponsive').style.display='block'
         document.getElementById('textoResponsive').style.display='block'
         console.log('el boton funciona')
@@ -53,7 +54,8 @@ const showMessageBOTS = ()=>{
         
     }else{
         console.log('entra en el else')
-        
+        document.getElementById('hamburguesaOff').style.display='none'
+        document.getElementById('hamburguesa').style.display='block'
         document.getElementById('imagenResponsive').style.display='none'
         document.getElementById('textoResponsive').style.display='none'
         mostrar=true

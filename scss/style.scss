@@ -9,7 +9,29 @@
     z-index: 200;
 
 }
+.header_sistemas{
+    position: absolute;
+    right: 0;
+    z-index: 300;
+    top: 0;
+}
 
+#hamburguesaOff{
+    font-size: xx-large;
+}
+#button{
+    border: none !important;
+}
+
+
+button:focus:not(:focus-visible) {
+    outline:none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
 
 .mensajeabout{
     position: absolute;
@@ -167,6 +189,7 @@ height: 100%;
 .header_rendimiento{
     position: absolute;
     right: 0;
+    z-index: 300;
 }
 
 .rendimiento_main{

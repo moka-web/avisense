@@ -120,19 +120,16 @@
   height: 100%; }
 
 .body_rendimiento {
-  background-color: #908f8e;
-  height: 100vh; }
+  background-color: #908f8e; }
 
 .header_rendimiento {
   position: absolute;
   right: 0; }
 
-.rendimiento_main {
-  height: 100vh; }
-  .rendimiento_main .title_rendimiento {
-    text-decoration: underline;
-    font-family: 'Inter', sans-serif;
-    padding-left: 4vh; }
+.rendimiento_main .title_rendimiento {
+  text-decoration: underline;
+  font-family: 'Inter', sans-serif;
+  padding-left: 4vh; }
 
 .first_div {
   height: 70vh;
@@ -353,25 +350,25 @@
     height: 100%; }
   .header_rendimiento {
     position: absolute;
-    right: 0; }
-  .rendimiento_main {
-    height: 100vh; }
-    .rendimiento_main .title_rendimiento {
-      text-decoration: underline;
-      font-family: 'Inter', sans-serif;
-      padding-left: 4vh; }
+    right: 0;
+    z-index: 300; }
+  .rendimiento_main .title_rendimiento {
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif;
+    padding-left: 4vh; }
   .first_div {
     height: 70vh;
     padding-top: 6vh; }
   .contenedorImg {
     padding-top: 2vh;
-    padding-left: 2vh;
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; }
+    height: 50vh; }
     .contenedorImg img {
       object-fit: scale-down;
       width: 70vw;
+      height: 33%;
       padding: 1vh; }
   .contenedorParrafo {
     padding-left: 4vh;

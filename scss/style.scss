@@ -161,7 +161,7 @@ height: 100%;
 
 .body_rendimiento{
     background-color: #908f8e;
-    height: 100vh;
+    
 }
 
 .header_rendimiento{
@@ -170,7 +170,7 @@ height: 100%;
 }
 
 .rendimiento_main{
-    height: 100vh;
+   
     .title_rendimiento{
         text-decoration: underline;
         font-family: 'Inter', sans-serif;
@@ -547,10 +547,11 @@ p{
     .header_rendimiento{
         position: absolute;
         right: 0;
+        z-index: 300;
     }
     
     .rendimiento_main{
-        height: 100vh;
+       
         .title_rendimiento{
             text-decoration: underline;
             font-family: 'Inter', sans-serif;
@@ -565,15 +566,16 @@ p{
     }
     .contenedorImg{
         padding-top: 2vh;
-        padding-left: 2vh;
+        padding-left: 1rem;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+       
+        height: 50vh;
        
         img{ 
             object-fit: scale-down;
             width: 70vw;
-            
+            height: 33%;
             padding: 1vh;
             
         }

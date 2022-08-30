@@ -12,8 +12,8 @@
 .header_sistemas{
     position: absolute;
     right: 0;
-    z-index: 300;
-    top: 0;
+    z-index: 400;
+    
 }
 
 #hamburguesaOff{
@@ -400,11 +400,14 @@ p{
 .body_sistema{
     background-color:#eb664f;
 }
+.section_sistema{
+    height: 100vh;
+}
 
 .h2_sistema{
-    
+    height: 40vh;
     h2{
-        margin-top: 16vh;
+       padding-top: 15vh;
         margin-left: 4vh;
         width: 50vh;
         font-family: 'Inter', sans-serif;
@@ -414,12 +417,7 @@ p{
     
 }
 
-.footer_sistema{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    
-}
+
 .img_sistema_{
     object-fit: cover;
     width: 100%;

@@ -383,13 +383,13 @@ button:focus:not(:focus-visible) {
   .rendimiento_main .title_rendimiento {
     text-decoration: underline;
     font-family: 'Inter', sans-serif;
-    padding-left: 4vh; }
+    padding-left: 3vh; }
   .first_div {
     height: 70vh;
     padding-top: 6vh; }
   .contenedorImg {
     padding-top: 2vh;
-    padding-left: 1rem;
+    padding-left: 2vh;
     display: flex;
     flex-direction: column;
     height: 50vh; }
@@ -399,17 +399,16 @@ button:focus:not(:focus-visible) {
       height: 33%;
       padding: 1vh; }
   .contenedorParrafo {
-    padding-left: 4vh;
-    padding-top: 4%;
+    padding: 5%;
     background-color: #161715;
     width: 100%;
-    height: 30vh; }
+    height: 100%; }
     .contenedorParrafo p {
       font-family: 'Inter', sans-serif;
       display: block;
       text-align: start;
       color: white;
-      font-size: medium; }
+      font-size: 2vh; }
   .br {
     display: none; }
   .div_responsive {

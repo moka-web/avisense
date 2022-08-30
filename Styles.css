@@ -420,7 +420,7 @@ button:focus:not(:focus-visible) {
         text-decoration: underline;
         font-family: 'Inter', sans-serif;
         font-size: 5vw;
-        padding-top: 15%;
+        padding-top: 25%;
         padding-left: 5%; }
     .div_responsive img {
       height: 70vh;

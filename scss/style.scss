@@ -39,7 +39,7 @@ button:focus:not(:focus-visible) {
     width: 18vw;
     padding: 1vw;
     display: none;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.47);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -117,7 +117,7 @@ button:focus:not(:focus-visible) {
         text-decoration: underline;
     }
     .rendimiento{
-        background-color:#e1ca00;
+        background-color:#e0d700;
     }
 }
 
@@ -145,7 +145,7 @@ button:focus:not(:focus-visible) {
         text-decoration: underline;
     }
     .bots{
-        background-color: black;
+        background-color:#1d1d1b;
     }
 }
 .bots_div{
@@ -168,7 +168,7 @@ button:focus:not(:focus-visible) {
         text-decoration: underline;
     }
     .sistema{
-        background-color: rgb(177, 59, 59);
+        background-color: #eb664f;
     }
 }
 .sistemas_div{
@@ -220,10 +220,7 @@ height: 100%;
     justify-content:space-around;
    
     img{ 
-        
         width: 30%;
-        
-        
     }
 }
  
@@ -246,9 +243,6 @@ height: 100%;
 
 
 
-
-
-
 //bots
 
 .div_responsive{
@@ -268,7 +262,7 @@ height: 100%;
 .section_bot_descripcion{
     width: 100%;
     height: 110vh;
-    background-color: #161715;
+    background-color: #1d1d1b;
     
 }
 
@@ -277,7 +271,7 @@ height: 100%;
     width:100%;
 }
 .articles_bot_main{
-    height: 30vh;
+    
     width: 100%;
     display: flex;
    article{
@@ -286,6 +280,7 @@ height: 100%;
         width: 100%;
     }
     p{
+        
         color: white;
         padding: 1vh;
         word-wrap: break-word;
@@ -297,8 +292,8 @@ height: 100%;
 
 .nuestros_bot_section{
     padding-top: 5vh;
-   height: 100vh;
-    background-color: #161715;
+    height: 100vh;
+    background-color: #1d1d1b;
     
 }
 
@@ -403,7 +398,7 @@ p{
 //sistema
 
 .body_sistema{
-    background-color: rgb(177, 59, 59) ;
+    background-color:#eb664f;
 }
 
 .h2_sistema{
@@ -635,6 +630,10 @@ p{
     
  
     //bots
+
+    .br{
+        display: none;
+    }
     
     .div_responsive{
         display: block;
@@ -665,7 +664,7 @@ p{
 
     .section_bot_descripcion{
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: #161715;
         
     }
@@ -687,7 +686,7 @@ p{
         p{
             color: white;
             
-            font-size: 12px; 
+            font-size: 2vh; 
     
         }
         #p_dashboard{
@@ -713,8 +712,8 @@ p{
 
     .nuestros_bot_section{
         background-color: #161715;
-        height: 110vh;
-        padding-bottom: 10vh;
+        height: 100vh;
+        padding-top: 0vh;
     }
     
     
@@ -726,16 +725,13 @@ p{
     
         h2{
            
-            font-family: 'Inter', sans-serif;
-            text-decoration: underline;
-            font-size: 5vw;
+            display: none;
     
         }
     
         p{
             font-family: 'Inter', sans-serif;
-            padding-bottom: 3vh;
-            font-size: 90%;
+            font-size: 2vh;
             
             
         }
@@ -743,17 +739,14 @@ p{
 
 
     .vectores_bot{
-        height: 60%;
+        height: 40vh;
         padding: 2rem;
         
         .img_vectores_bot{
-            display: flex;
-            justify-content: space-around;
-            img{
-                height: 30vh;
-                width: 30vw;
-                display: none;
-            }
+            
+            display: none;
+            
+           
         }
         
         
@@ -762,17 +755,18 @@ p{
 
     .section_implementacion_bots{
         background-color: #d1d1d1;
-        height: 160vh;
+        height: 100%;
        
         .div1_section_implementacion{
             background-color: #e04b29 ;
-            padding-top: 1vh;
-            height: 20%;
+           
+            height: 20vh;
     
             h2{
+                margin: 4vh;
                 font-family: 'Inter', sans-serif;
-                padding-top: 6.5vh;
-                margin-left: 1rem;
+                padding-top: 0%;
+                
                 text-decoration: underline;
                 width: 50%;
                 font-size: 4vw;
@@ -781,6 +775,8 @@ p{
             
         }
     }
+
+    
     
     
     .contenedor_article_bot{
@@ -810,14 +806,13 @@ p{
 
      .carrousel{
         display: block;
-        height: 50vh;
         width: 100%;
-
+        //height: 10vh;
      }
      .img_carousel{
-        width: 80vw;
-        height: 40vh;
-        object-fit: contain;
+        width: 100%;
+       height: 100%;
+        
      }
 
 
@@ -827,7 +822,7 @@ p{
         border-radius: 50%;
         height: 10px;
         width: 10px;
-        bottom: 5vh;
+        bottom: -7vh;
      }
 
     

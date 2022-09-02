@@ -24,6 +24,8 @@ const showMessage = ()=>{
     console.log('entra')
     if( mostrar===true ){
 
+        document.getElementById('hamburguesaOff').style.display='block'
+        document.getElementById('hamburguesa').style.display='none'
         document.getElementById('logo1').style.display='none'
         document.getElementById('imagenResponsive').style.display='block'
         document.getElementById('textoResponsive').style.display='block'
@@ -32,6 +34,8 @@ const showMessage = ()=>{
         
     }else{
         console.log('entra en el else')
+        document.getElementById('hamburguesaOff').style.display='none'
+        document.getElementById('hamburguesa').style.display='block'
         document.getElementById('logo1').style.display='block'
         document.getElementById('imagenResponsive').style.display='none'
         document.getElementById('textoResponsive').style.display='none'

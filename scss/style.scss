@@ -134,6 +134,7 @@ button:focus:not(:focus-visible) {
     object-position: center;
     width: 96.7%;
     height: 100%;
+    object-fit: contain;
     
 }
 
@@ -159,6 +160,7 @@ button:focus:not(:focus-visible) {
 .img_bots{
     width: 100%;
     height:100%;
+    object-fit: contain;
 }
 
 .sistemas_div:hover{
@@ -184,6 +186,7 @@ height: 100%;
 .img_sistema{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 //rendimiento
